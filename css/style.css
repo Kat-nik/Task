@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Quite Chocolatey;
-	src: url(/fonts/Quite_Chocolatey.ttf) format('truetype');
+	src: url(../fonts/Quite_Chocolatey.ttf) format('truetype');
 	font-style: normal;
 	font-weight: normal;
 	font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: PT_Serif;
-	src: url(/fonts/PT_Serif-Web-Regular.ttf) format('truetype');
+	src: url(../fonts/PT_Serif-Web-Regular.ttf) format('truetype');
 	font-style: normal;
 	font-weight: normal;
 	font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
 	font-family: Couture;
-	src: url(/fonts/couture-bold.otf);
+	src: url(../fonts/couture-bold.otf);
 	font-style: normal;
 	font-weight: bold;
 	font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
 	font-family: Montserrat;
-	src: url(/fonts/Montserrat-Regular.ttf) format('truetype');
+	src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
 	font-style: normal;
 	font-weight: normal;
 	font-display: swap;
@@ -33,26 +33,15 @@
 
 @font-face {
 	font-family: Montserrat;
-	src: url(/fonts/Montserrat-Bold.ttf) format('truetype');
+	src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
 	font-style: normal;
 	font-weight: bold;
 	font-display: swap;
-}
-@font-face {
-	font-family: 'FontName';
-	src: url('FileName.eot');
-	src: url('FileName.eot?#iefix') format('embedded-opentype'),
-		 url('FileName.woff') format('woff'),
-		 url('FileName.ttf') format('truetype'),
-		 url('FileName.svg#FontName') format('svg');
-	font-style: normal;
-	font-weight: normal;
 }
 
 * {
 	box-sizing: border-box;
 	margin: 0;
-	
 }
 
 .header{
