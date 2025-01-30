@@ -1,3 +1,53 @@
+@font-face {
+	font-family: Quite Chocolatey;
+	src: url(/fonts/Quite_Chocolatey.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: PT_Serif;
+	src: url(/fonts/PT_Serif-Web-Regular.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Couture;
+	src: url(/fonts/couture-bold.otf);
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(/fonts/Montserrat-Regular.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: Montserrat;
+	src: url(/fonts/Montserrat-Bold.ttf) format('truetype');
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'FontName';
+	src: url('FileName.eot');
+	src: url('FileName.eot?#iefix') format('embedded-opentype'),
+		 url('FileName.woff') format('woff'),
+		 url('FileName.ttf') format('truetype'),
+		 url('FileName.svg#FontName') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
 
 * {
 	box-sizing: border-box;
@@ -7,13 +57,16 @@
 
 .header{
 	height: 690px;
+	background: linear-gradient(rgba(221,34,17, 0.8), rgba(221,34,17, 0.8)), 
+	url(../img/Layer_1.png) center/cover no-repeat scroll;
+	/* height: 690px;
 	background-image: url(../img/Layer_1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .opacity{
 	height: 690px; 
-	background: rgba(221,34,17, 0.8);
+	background: rgba(221,34,17, 0.8); */
 }
 .header_container{
 	width: 1010px;
@@ -67,7 +120,7 @@
 	width: 550px;
 	margin-top: 30px;
   	font-size: 20px;
-    font-family: PT Serif;
+    font-family: PT_Serif;
     color: rgb(255, 255, 255);
     line-height: 28px;
 }
@@ -78,7 +131,7 @@
 }
 .services_title{
 	font-size: 50px;
-  	font-family: "Couture";
+  	font-family: Couture;
   	color: #130e27;
   	margin: 30px 0 95px;
 }
@@ -100,7 +153,7 @@
 }
 .services_text{
 	font-size: 20px;
-	font-family: PT Serif;
+	font-family: PT_Serif;
 	color: rgb(22, 22, 22);
 	line-height: 28px;
 	padding-top: 45px;
@@ -122,7 +175,7 @@
 .histori_text{
 	width: 630px;
 	font-size: 20px;
-	font-family: PT Serif;
+	font-family: PT_Serif;
 	color: rgb(255, 255, 255);
 	line-height: 28px;
 }
@@ -172,7 +225,7 @@
 }
 .price_cards_title{
 	font-size: 22px;
-	font-family: PT Serif;
+	font-family: PT_Serif;
 	color: rgb(22, 22, 22);
 	font-weight: normal;
 	padding-bottom: 20px;
@@ -188,7 +241,7 @@
 .price_text{
 	list-style: none;
 	font-size: 20px;
-	font-family: PT Serif;
+	font-family: PT_Serif;
 	color: #353535;
 	line-height: 28px;
 	padding: 0;
@@ -229,7 +282,7 @@
 }
 .footer_text{
 	font-size: 20px;
-	font-family: "PT Serif";
+	font-family: PT_Serif;
 	color: rgb(255, 255, 255);
 }
 .footer_text a{
